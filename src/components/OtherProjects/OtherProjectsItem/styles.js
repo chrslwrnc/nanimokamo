@@ -10,7 +10,7 @@ export const Arrow = styled.div`
 `;
 
 export const Main = styled.div`
-  padding: 0.5em 0;
+  padding: 0.5em 0 0 0;
   font-size: 20px;
   margin-left: 1.15rem;
   max-width: 700px;

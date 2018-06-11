@@ -20,7 +20,7 @@ export default {
       shortBody:
         'Created a scalable structure for the project to accommodate the inclusion of legacy features with new features in one codebase.',
       body:
-        'I created a scalable structure for the project in order to accommodate the inclusion of various legacy features with new features under one codebase. The site was split in to 4 main apps, and I created a set of shared utilities in order to make bootstrapping and maintaining common functionality easier.',
+        'I created a scalable structure for the project in order to accommodate the inclusion of various legacy features with new features under one codebase. The site was split in to 4 main apps, and I created a set of shared utilities to make bootstrapping and maintaining common functionality easier.',
     },
     {
       title: 'Bundle size',

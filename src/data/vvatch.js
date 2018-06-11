@@ -18,7 +18,7 @@ export default {
     {
       title: 'Time vs effort',
       body:
-        'In order to get the best compromise of time and effort vs output, I chose to use Meteor as the development framework. It allowed us to quickly develop features on the both the back and frontend using isomorphic code, provided realtime updates through an abstraction using websockets and had an ease-to-use API for communication with a database.',
+        'To get the best compromise of time and effort vs output, I chose to use Meteor as the development framework. It allowed us to quickly develop features on the both the back and frontend using isomorphic code, provided realtime updates through an abstraction using websockets and had an ease-to-use API for communication with a database.',
     },
     {
       title: 'Microservice architecture',
