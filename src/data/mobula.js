@@ -32,10 +32,6 @@ export default {
       body:
         'I chose to manage the entire application state, both data and UI, using Redux. This made debugging any issues much easier as it was simple to see both how the state was updated and how the data then flowed through the application. It made it far easier to generate computed state.',
     },
-    {
-      title: 'Snapshot testing',
-      body: 'fgdfslius1',
-    },
   ],
   technologies: [
     'javascript',
