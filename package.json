@@ -1,6 +1,6 @@
 {
-  "name": "dead-hungry",
-  "version": "0.0.1",
+  "name": "nanimokamo",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@babel/core": "7.0.0-rc.1",
