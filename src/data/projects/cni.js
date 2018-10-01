@@ -9,7 +9,7 @@ export default {
     url: 'http://yld.io/',
   },
   job: {
-    title: 'Senior Developer (contract)',
+    title: 'Senior Software Engineer (contract)',
     date: 'Apr 2018 - Sep 2018',
   },
   description:
