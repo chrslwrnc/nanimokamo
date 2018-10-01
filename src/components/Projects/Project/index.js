@@ -1,10 +1,10 @@
 import React from 'react';
 import * as styles from './styles';
 
-const renderPoint = ({ title, body }, i) => (
+const renderPoint = ({ title, shortBody }, i) => (
   <styles.PointsItem key={i}>
-    <styles.PointsItemTitle>{title}</styles.PointsItemTitle>.{' '}
-    <styles.PointsItemBody dangerouslySetInnerHTML={{ __html: body }} />
+    {/* <styles.PointsItemTitle>{title}</styles.PointsItemTitle>.{' '} */}
+    <styles.PointsItemBody dangerouslySetInnerHTML={{ __html: shortBody }} />
   </styles.PointsItem>
 );
 

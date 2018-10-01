@@ -17,11 +17,15 @@ export default {
   points: [
     {
       title: 'Time vs effort',
+      shortBody:
+        'Developed features quickly on back and frontend using isomorphic code with Meteor.',
       body:
         'To get the best compromise of time and effort vs output, I chose to use Meteor as the development framework. It allowed us to quickly develop features on the both the back and frontend using isomorphic code, provided realtime updates through an abstraction using websockets and had an ease-to-use API for communication with a database.',
     },
     {
       title: 'Microservice architecture',
+      shortBody:
+        'Encouraged microservice-like structure through grouping of code into well-defined packages that could be extracted and deployed to separately managed services.',
       body:
         'The project lent itself to a microservice architecture. I encouraged creating everything in well-defined packages of code that could, in the future, be extracted and deployed to separately managed services. I was not able to achieve a full microservice architecture before I left the project, but I feel that I laid the foundations for this to be easily expanded upon in the future.',
     },

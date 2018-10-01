@@ -62,4 +62,4 @@ export const GlobalStyles = createGlobalStyle`
   }
 `;
 
-export const Wrapper = styled.div``;
+export const Wrapper = styled.main``;

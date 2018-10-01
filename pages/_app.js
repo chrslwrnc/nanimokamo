@@ -30,6 +30,7 @@ export default class MyApp extends App {
     return (
       <Container>
         <Head>
+          <html lang="en" />
           <title>{data.meta.siteName}</title>
           <meta name="description" content={data.meta.seoDescription} />
           <meta name="keywords" content={data.meta.seoKeywords.join(', ')} />
