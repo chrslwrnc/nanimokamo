@@ -8,9 +8,11 @@ import deepmind from './deepmind';
 import carne from './carne';
 import payu from './payu';
 import kt from './kt';
+import deadhungry from './deadhungry';
 
 export default [
   cni,
+  deadhungry,
   trainline,
   dubsmash,
   mobula,

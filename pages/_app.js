@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { ThemeProvider } from 'styled-components';
 import Layout from '../src/components/Layout';
 import { theme } from '../src/theme';
-import { createScripts } from '../src/analytics';
+// import { createScripts } from '../src/analytics';
 import { header, meta } from '../src/data';
 
 export default class MyApp extends App {
@@ -39,7 +39,7 @@ export default class MyApp extends App {
             content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"
           />
           <meta name="apple-mobile-web-app-capable" content="yes" />
-          {createScripts(data.meta.gaId)}
+          {/* {createScripts(data.meta.gaId)} */}
         </Head>
 
         <ThemeProvider theme={theme}>
