@@ -4,8 +4,7 @@ export default {
     url: 'https://deadhungry.co',
   },
   company: {
-    name: 'Self-initiated',
-    url: 'http://nanimokamo.com',
+    name: 'Alex Paganelli',
   },
   job: {
     title: 'Developer',
