@@ -12,11 +12,10 @@ export const Arrow = styled.div`
 export const Link = styled.a``;
 
 export const Main = styled.div`
-  padding: 0.5em 0 1em 0;
-  font-size: 20px;
-  margin-left: 1.15rem;
+  padding: 0.5rem 0 1rem 0;
+  margin-left: 1.15em;
   max-width: 700px;
-  margin-bottom: 1.5em;
+  margin-bottom: 1rem;
 `;
 
 export const JobWrapper = styled.div`

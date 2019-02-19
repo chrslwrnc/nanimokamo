@@ -1,4 +1,5 @@
 import bulb from './bulb';
+import superhi from './superhi';
 import cni from './cni';
 import dubsmash from './dubsmash';
 import trainline from './trainline';
@@ -12,6 +13,7 @@ import kt from './kt';
 import deadhungry from './deadhungry';
 
 export default [
+  superhi,
   bulb,
   cni,
   deadhungry,
