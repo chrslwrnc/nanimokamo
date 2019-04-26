@@ -2,7 +2,6 @@ export default {
   isFeatured: true,
   project: {
     title: 'Dubsmash',
-    url: 'https://dubsmash.com/',
   },
   company: {
     name: 'Dubsmash',

@@ -9,6 +9,6 @@ export default {
   },
   job: {
     title: 'Senior Software Engineer (Contract)',
-    date: 'November 2018 - February 2019',
+    date: 'Nov 2018 - Feb 2019',
   },
 };

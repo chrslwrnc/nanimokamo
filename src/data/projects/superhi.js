@@ -9,6 +9,6 @@ export default {
   },
   job: {
     title: 'Senior Software Engineer',
-    date: 'February 2019 ~',
+    date: 'Feb 2019 ~',
   },
 };
