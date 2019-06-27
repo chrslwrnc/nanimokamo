@@ -1,5 +1,4 @@
 export default {
-  title: '何もかも',
   name: 'Chris Lawrence',
   jobTitle: 'Senior Software Engineer (Web)',
   socialLinks: [

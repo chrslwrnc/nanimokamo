@@ -2,7 +2,6 @@ export default {
   isFeatured: true,
   project: {
     title: 'Mobula',
-    url: 'https://mobu.la/',
   },
   company: {
     name: 'Grabble',

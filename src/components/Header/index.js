@@ -9,7 +9,7 @@ export default ({
 }) => (
   <styles.Wrapper>
     <styles.Section>
-      <div>{title}</div>
+      {title && <div>{title}</div>}
       <div>{name}</div>
       <div>{jobTitle}</div>
     </styles.Section>

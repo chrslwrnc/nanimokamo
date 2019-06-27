@@ -1,7 +1,6 @@
 export default {
   project: {
     title: 'PayU',
-    url: 'https://payu.com',
   },
   company: {
     name: 'Huge',

@@ -2,7 +2,6 @@ export default {
   isFeatured: true,
   project: {
     title: 'Condé Nast',
-    url: 'http://www.condenastinternational.com/',
   },
   company: {
     name: 'YLD',
