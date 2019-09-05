@@ -5,34 +5,15 @@ export const GlobalStyles = createGlobalStyle`
   body {
     background-color: white;
     line-height: 1;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
     word-break: break-word;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 100;
     margin: 0;
     color: rgba(0,0,0,.84);
-    font-size: 28px;
-    padding: 0.5em;
-
-    ${media('small')`
-      font-size: 36px;
-    `}
-
-    ${media('medium')`
-      font-size: 40px;
-    `}
-
-    ${media('large')`
-      font-size: 46px;
-    `}
-
-    ${media('xlarge')`
-      font-size: 50px;
-    `}
-
-    ${media('xxlarge')`
-      font-size: 56px;
-    `}
+    font-size: 18px;
+    padding: 1em;
+    letter-spacing: 0.05em;
   }
 
   a:hover {
