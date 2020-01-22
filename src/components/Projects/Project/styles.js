@@ -60,3 +60,7 @@ export const TechItem = styled.li`
   border-radius: 5px;
   padding: 0.2em 0.5em;
 `;
+
+export const JobTitle = styled.div`
+  font-style: italic;
+`;

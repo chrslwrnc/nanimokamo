@@ -1,6 +1,6 @@
 export default {
   name: 'Chris Lawrence',
-  jobTitle: 'Senior Software Engineer (Web)',
+  jobTitle: 'Senior Software Engineer',
   socialLinks: [
     {
       text: '+447XXXXXXXXX',

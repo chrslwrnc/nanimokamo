@@ -10,7 +10,7 @@ export default ({
   <styles.Wrapper>
     <styles.Section>
       {title && <div>{title}</div>}
-      <div>{name}</div>
+      <strong>{name}</strong>
       <div>{jobTitle}</div>
     </styles.Section>
 

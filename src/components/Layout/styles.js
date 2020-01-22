@@ -7,13 +7,13 @@ export const GlobalStyles = createGlobalStyle`
     line-height: 1;
     font-family: Arial, Helvetica, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
     word-break: break-word;
-    text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 400;
     margin: 0;
     color: rgba(0,0,0,.84);
     font-size: 18px;
-    padding: 1em;
-    letter-spacing: 0.05em;
+    padding: 1.5em;
+    line-height: 120%;
+    /* letter-spacing: 0.05em; */
   }
 
   a:hover {

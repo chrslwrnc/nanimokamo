@@ -23,6 +23,10 @@ export default class MyDocument extends Document {
             content="initial-scale=1.0, width=device-width"
           />
           <link
+            href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800&display=swap"
+            rel="stylesheet"
+          />
+          <link
             rel="shortcut icon"
             type="image/x-icon"
             href="/static/favicon.ico"

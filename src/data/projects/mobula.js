@@ -4,7 +4,7 @@ export default {
     title: 'Mobula',
   },
   company: {
-    name: 'Grabble',
+    name: 'Mobula',
     url: 'http://grabble.com/',
   },
   job: {

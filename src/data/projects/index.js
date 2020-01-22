@@ -25,5 +25,5 @@ export default [
   deepmind,
   carne,
   payu,
-  kt,
+  // kt,
 ];

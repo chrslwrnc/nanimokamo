@@ -19,23 +19,39 @@ const Project = ({
 }) => (
   <styles.Wrapper>
     <styles.Header>
-      <styles.Link
-        as={!project.url && 'span'}
-        {...(project.url
-          ? { href: project.url, target: '_blank', rel: 'noopener noreferrer' }
-          : {})}
-      >
-        <styles.Arrow>→</styles.Arrow>
-        {project.title}
-      </styles.Link>
+      <strong>
+        <styles.Link
+          as={!project.url && 'span'}
+          {...(project.url
+            ? {
+                href: project.url,
+                target: '_blank',
+                rel: 'noopener noreferrer',
+              }
+            : {})}
+        >
+          {/* <styles.Arrow>→</styles.Arrow> */}
+          {project.title}
+        </styles.Link>
+      </strong>{' '}
+      {company.name !== project.title && (
+        <>
+          {company.name && company.url ? (
+            <>
+              with{' '}
+              <a href={company.url} target="_blank" rel="noopener noreferrer">
+                {company.name}
+              </a>
+            </>
+          ) : (
+            <>with {company.name}</>
+          )}
+        </>
+      )}
     </styles.Header>
     <styles.Main>
       <styles.JobWrapper>
-        {job.title} &middot;{' '}
-        <a href={company.url} target="_blank" rel="noopener noreferrer">
-          {company.name}
-        </a>
-        <br />
+        <styles.JobTitle>{job.title}</styles.JobTitle>
         <time>{job.date}</time>
       </styles.JobWrapper>
       {showBody && (
