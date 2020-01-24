@@ -11,9 +11,7 @@ export const Arrow = styled.div`
 
 export const Link = styled.a``;
 
-export const Main = styled.div`
-  max-width: 700px;
-`;
+export const Main = styled.div``;
 
 export const JobWrapper = styled.div``;
 
@@ -22,7 +20,7 @@ export const Body = styled.div`
   text-transform: initial;
   font-weight: 400;
   line-height: 1.4;
-  letter-spacing: 0.015em;
+  /* letter-spacing: 0.015em; */
 
   a {
     font-weight: 500;

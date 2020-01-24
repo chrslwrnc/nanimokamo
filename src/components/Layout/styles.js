@@ -5,15 +5,29 @@ export const GlobalStyles = createGlobalStyle`
   body {
     background-color: white;
     line-height: 1;
-    font-family: Arial, Helvetica, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif;
     word-break: break-word;
     font-weight: 400;
     margin: 0;
     color: rgba(0,0,0,.84);
-    font-size: 18px;
+    font-size: 3.5vw;
     padding: 1.5em;
     line-height: 120%;
     /* letter-spacing: 0.05em; */
+  }
+
+  a {
+    position: relative;
+  }
+
+  a:after {
+    content: '➜';
+    transform: rotate(-43.725deg);
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    bottom: 0.5em;
+    font-size: 75%;
   }
 
   a:hover {

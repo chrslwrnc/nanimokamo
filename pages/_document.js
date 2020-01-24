@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
             content="initial-scale=1.0, width=device-width"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800&display=swap"
+            href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap"
             rel="stylesheet"
           />
           <link
