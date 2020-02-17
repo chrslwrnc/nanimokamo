@@ -9,7 +9,10 @@ export const GlobalStyles = createGlobalStyle`
     word-break: break-word;
     font-weight: 400;
     margin: 0;
-    color: rgba(0,0,0,.84);
+    color: red;
+    background-color: white;
+    /* color: white;
+    background-color: red; */
     font-size: 3.5vw;
     padding: 1.5em;
     line-height: 120%;
@@ -17,21 +20,25 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    position: relative;
-  }
-
-  a:after {
-    content: '➜';
-    transform: rotate(-43.725deg);
     display: inline-block;
-    font-weight: bold;
     position: relative;
-    bottom: 0.5em;
-    font-size: 75%;
-  }
+    text-decoration: none;
+    color: inherit;
 
-  a:hover {
-    color: #0004ff;
+    &:after {
+      content: '➜';
+      transform: rotate(-43.725deg);
+      display: inline-block;
+      font-weight: bold;
+      position: relative;
+      bottom: 0.5em;
+      font-size: 75%;
+    }
+
+    &:hover {
+      transform: rotateY(180deg);
+      color: inherit;
+    }
   }
 
   ul {
@@ -49,11 +56,6 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     font-size: 100%;
     margin: 0;
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
   }
 `;
 
