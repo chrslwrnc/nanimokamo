@@ -1,7 +1,6 @@
 export default {
   project: {
     title: 'Google DeepMind',
-    url: 'https://deepmind.com',
   },
   company: {
     name: 'Code & Theory',
