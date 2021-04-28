@@ -51,7 +51,7 @@ const Project = ({
     </styles.Header>
     <styles.Main>
       <styles.JobWrapper>
-        <styles.JobTitle>{job.title}</styles.JobTitle>
+        {/* <styles.JobTitle>{job.title}</styles.JobTitle> */}
         <time>{job.date}</time>
       </styles.JobWrapper>
       {showBody && (

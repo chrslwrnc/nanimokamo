@@ -4,7 +4,7 @@ export default {
     url: 'https://deadhungry.co',
   },
   company: {
-    name: 'Alex Paganelli',
+    name: 'DeadHungry',
   },
   job: {
     title: 'Developer',

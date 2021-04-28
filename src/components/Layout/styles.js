@@ -2,6 +2,11 @@ import styled, { createGlobalStyle } from 'styled-components';
 import { media } from '../../theme';
 
 export const GlobalStyles = createGlobalStyle`
+  :root {
+    --color: red;
+    --backgroundColor: white;
+  }
+
   body {
     background-color: white;
     line-height: 1;
@@ -9,14 +14,11 @@ export const GlobalStyles = createGlobalStyle`
     word-break: break-word;
     font-weight: 400;
     margin: 0;
-    color: red;
-    background-color: white;
-    /* color: white;
-    background-color: red; */
+    color: var(--color);
+    background-color: var(--backgroundColor);
     font-size: 3.5vw;
     padding: 1.5em;
     line-height: 120%;
-    /* letter-spacing: 0.05em; */
   }
 
   a {

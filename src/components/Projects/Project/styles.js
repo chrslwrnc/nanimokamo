@@ -13,7 +13,10 @@ export const Link = styled.a``;
 
 export const Main = styled.div``;
 
-export const JobWrapper = styled.div``;
+export const JobWrapper = styled.div`
+  font-size: 65%;
+time {
+}`;
 
 export const Body = styled.div`
   margin-top: 1em;

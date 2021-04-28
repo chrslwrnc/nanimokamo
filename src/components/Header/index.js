@@ -9,12 +9,7 @@ export default ({
 }) => (
   <styles.Wrapper>
     <styles.Section>
-      {title && <div>{title}</div>}
       <strong>{name}</strong>
-      <div>{jobTitle}</div>
-    </styles.Section>
-
-    <styles.Contact>
       {socialLinks.map((socialLink, i) => (
         <div key={i}>
           <styles.Link as={!socialLink.href && 'span'} href={socialLink.href}>
@@ -22,6 +17,9 @@ export default ({
           </styles.Link>
         </div>
       ))}
+    </styles.Section>
+
+    <styles.Contact>
     </styles.Contact>
 
     <styles.Contact>
