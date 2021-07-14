@@ -15,9 +15,9 @@ export default {
       href: 'https://www.linkedin.com/in/chrslwrnc/',
       text: 'LinkedIn',
     },
-    {
-      href: 'https://instagram.com/chrslwrnc',
-      text: 'Instagram',
-    },
+    // {
+    //   href: 'https://instagram.com/chrslwrnc',
+    //   text: 'Instagram',
+    // },
   ],
 };
